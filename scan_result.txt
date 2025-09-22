@@ -1,0 +1,47 @@
+# Nmap 7.95 scan initiated Mon Sep 22 19:48:57 2025 as: /usr/lib/nmap/nmap --privileged -sS -oN scan_results.txt 192.168.1.0/24
+Nmap scan report for RTKGW.bbrouter (192.168.1.1)
+Host is up (0.0069s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+21/tcp  open  ftp
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 64:FB:92:AE:4B:0C (PPC Broadband)
+
+Nmap scan report for 192.168.1.2
+Host is up (0.067s latency).
+All 1000 scanned ports on 192.168.1.2 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 3A:68:48:3C:29:03 (Unknown)
+
+Nmap scan report for Archer_C5.bbrouter (192.168.1.5)
+Host is up (0.032s latency).
+All 1000 scanned ports on Archer_C5.bbrouter (192.168.1.5) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 34:60:F9:85:14:86 (TP-Link Limited)
+
+Nmap scan report for Galaxy-F15-5G.bbrouter (192.168.1.7)
+Host is up (0.028s latency).
+All 1000 scanned ports on Galaxy-F15-5G.bbrouter (192.168.1.7) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: CE:4A:35:DB:64:92 (Unknown)
+
+Nmap scan report for 192.168.1.65
+Host is up (0.068s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT  STATE    SERVICE
+7/tcp filtered echo
+MAC Address: CA:59:CD:96:26:93 (Unknown)
+
+Nmap scan report for V2321.bbrouter (192.168.1.66)
+Host is up (0.025s latency).
+All 1000 scanned ports on V2321.bbrouter (192.168.1.66) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 06:34:04:FA:0F:C1 (Unknown)
+
+Nmap scan report for kali.bbrouter (192.168.1.9)
+Host is up (0.000010s latency).
+All 1000 scanned ports on kali.bbrouter (192.168.1.9) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Sep 22 19:50:20 2025 -- 256 IP addresses (7 hosts up) scanned in 83.17 seconds
