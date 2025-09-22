@@ -1,0 +1,66 @@
+# Nmap 7.95 scan initiated Mon Sep 22 20:25:11 2025 as: /usr/lib/nmap/nmap --privileged -sV -oN scan_results1.txt 192.168.1.0/24
+Nmap scan report for RTKGW.bbrouter (192.168.1.1)
+Host is up (0.0094s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE  VERSION
+21/tcp  open  ftp      GNU Inetutils FTPd 1.4.1
+80/tcp  open  http     Boa HTTPd 0.93.15
+443/tcp open  ssl/http Boa HTTPd 0.93.15
+MAC Address: 64:FB:92:AE:4B:0C (PPC Broadband)
+Service Info: Host: RTKGW
+
+Nmap scan report for 192.168.1.2
+Host is up (0.28s latency).
+All 1000 scanned ports on 192.168.1.2 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 3A:68:48:3C:29:03 (Unknown)
+
+Nmap scan report for Archer_C5.bbrouter (192.168.1.5)
+Host is up (0.13s latency).
+All 1000 scanned ports on Archer_C5.bbrouter (192.168.1.5) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 34:60:F9:85:14:86 (TP-Link Limited)
+
+Nmap scan report for Galaxy-F15-5G.bbrouter (192.168.1.7)
+Host is up (0.025s latency).
+All 1000 scanned ports on Galaxy-F15-5G.bbrouter (192.168.1.7) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: CE:4A:35:DB:64:92 (Unknown)
+
+Nmap scan report for 192.168.1.13
+Host is up (0.048s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE         VERSION
+8008/tcp open  http?
+8009/tcp open  ssl/castv2      Ninja Sphere Chromecast driver
+8443/tcp open  ssl/https-alt?
+9000/tcp open  ssl/cslistener?
+MAC Address: 7C:25:DA:F0:A9:1C (FN-Link Technology Limited)
+
+Nmap scan report for POCO-X3-Pro.bbrouter (192.168.1.38)
+Host is up (0.046s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT  STATE    SERVICE VERSION
+7/tcp filtered echo
+MAC Address: 22:59:39:1A:E2:F9 (Unknown)
+
+Nmap scan report for Redmi-Note-10.bbrouter (192.168.1.65)
+Host is up (0.010s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT  STATE    SERVICE VERSION
+7/tcp filtered echo
+MAC Address: CA:59:CD:96:26:93 (Unknown)
+
+Nmap scan report for 192.168.1.66
+Host is up (0.26s latency).
+All 1000 scanned ports on 192.168.1.66 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 06:34:04:FA:0F:C1 (Unknown)
+
+Nmap scan report for kali.bbrouter (192.168.1.9)
+Host is up (0.000011s latency).
+All 1000 scanned ports on kali.bbrouter (192.168.1.9) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep 22 20:30:14 2025 -- 256 IP addresses (9 hosts up) scanned in 303.31 seconds
