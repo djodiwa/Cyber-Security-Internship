@@ -44,5 +44,5 @@ The process took ~2 hours, focusing on safety (no links clicked). All findings a
 
 ## Repository Contents
 - `README.md`: This file—project overview and process.
-- `analyses.md`: Detailed breakdowns of all 7 emails, with embedded image references.
+- `analyses.md`: Detailed breakdowns of all 7 emails, with embedded image references. 
 - `/resources/`: Screenshots for visual reference.
