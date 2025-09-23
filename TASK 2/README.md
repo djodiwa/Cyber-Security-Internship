@@ -1,4 +1,4 @@
-# Cyber Security Internship - Task 2 : Analyze a Phishing Email Sample
+# Cyber Security Internship - Task 2 : Analyze a Phishing Email Sample 
 
 ## Project Overview
 This repository contains a detailed analysis of 7 phishing email samples impersonating trusted brands (FedEx, Microsoft, Intuit, Citibank, Office 365, Chase Bank, and PayPal). The goal is to identify phishing characteristics, such as spoofed senders, suspicious links, and social engineering tactics, to build awareness of email threat detection skills.
