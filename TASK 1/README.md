@@ -21,6 +21,6 @@ Steps:
 - scan_results.txt: First -sS scan (attached for basics).
 - scan_results1.txt: -sV details.
 - commands.txt: What I ran.
-- analysis.md: My beginner write-up.
+- analysis.md: My beginner write-up. 
 
 This built my recon skills – understanding exposure is key!
