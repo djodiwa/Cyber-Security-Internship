@@ -45,8 +45,64 @@ Nessus Essentials is chosen for this task (alternative: OpenVAS Community Editio
 - The scan will run for 5-15 minutes (or longer for full scans, up to 30-60 minutes).
 - Monitor progress in the interface.
 
-## Next Steps (To Be Added Later)
-- Review the report for vulnerabilities and severity.
-- Research fixes/mitigations for found issues.
-- Document the most critical vulnerabilities.
-- Include screenshots of scan results.
+## Next Steps 
+
+# 📝 Problem and Resolution Documentation
+
+## **Problem Identified**
+
+During a Nessus Essentials **vulnerability scanning** session on my Kali Linux laptop (192.168.1.9), the tool reported a **Medium severity issue** with a CVSS score of 6.5:
+
+* **Issue**: *SSL Certificate Cannot Be Trusted (Plugin ID 51192)*
+* **Cause**: Nessus generates a default **self-signed certificate** for its web interface (port 8834/TCP). Browsers do not trust this type of certificate, which creates a potential for man-in-the-middle attacks.
+* **Impact**: While not critical in a home setup, it reduces the trustworthiness of the secure connection to the Nessus dashboard.
+
+---
+
+## **Resolution (Using mkcert, Zero Cost)**
+
+To remediate the issue without purchasing a domain or certificate, I used the **mkcert** utility. This tool creates locally trusted SSL/TLS certificates for IP addresses.
+
+### **Steps Taken**
+
+1. **Installed mkcert and prerequisites**:
+
+   ```bash
+   sudo apt install libnss3-tools -y
+   wget https://dl.filippo.io/mkcert/latest?for=linux/amd64 -O mkcert
+   chmod +x mkcert
+   sudo mv mkcert /usr/local/bin/
+   ```
+
+2. **Set up a local Certificate Authority (CA)**:
+
+   ```bash
+   mkcert -install
+   ```
+
+3. **Generated a certificate for the Nessus IP (192.168.1.9)**:
+
+   ```bash
+   mkcert 192.168.1.9
+   ```
+
+4. **Replaced Nessus default certs with the new ones**:
+
+   ```bash
+   sudo cp 192.168.1.9.pem /opt/nessus/com/nessus/CA/servercert.pem
+   sudo cp 192.168.1.9-key.pem /opt/nessus/com/nessus/CA/serverkey.pem
+   sudo systemctl restart nessusd
+   ```
+
+5. **Verification**: Accessing `https://192.168.1.9:8834` in the browser no longer showed SSL trust warnings.
+
+---
+
+## **Conclusion**
+
+Through this exercise, I successfully conducted a **risk assessment** and applied a **remediation** for the Nessus certificate trust issue. I deepened my understanding of how **security tools** report issues, how **CVSS scores** help prioritize fixes, and how to apply practical solutions. Overall, I learned to link the concepts of **vulnerability scanning**, **risk assessment**, **remediation**, and effective use of **security tools** into a complete workflow.
+
+
+## Repository Contents
+- `README.md`: This file project overview and process.
+- `report.pdf`: Scaned report of my laptop-IP
