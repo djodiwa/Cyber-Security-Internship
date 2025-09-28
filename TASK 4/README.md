@@ -12,7 +12,7 @@ Configure and test basic firewall rules using UFW on Linux to allow or block tra
    - `sudo apt update && sudo apt install ufw -y`
    - `sudo ufw enable`
    - Screenshot: step1-enable-ufw.png
-!(resource/step1-enable-ufw.png)
+!{}(resource/step1-enable-ufw.png)
 2. List Current Rules:
    - `sudo ufw status verbose`
    - Screenshot: step2-list-rules.png
