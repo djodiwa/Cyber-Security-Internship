@@ -5,7 +5,7 @@ Firewalls are essential security tools in computing that act as a barrier betwee
 
 ## Objective
 Configure and test basic firewall rules using UFW on Linux to allow or block traffic.
-
+ 
 ## Steps and Commands
 
 1. **Install and Enable UFW**:  
