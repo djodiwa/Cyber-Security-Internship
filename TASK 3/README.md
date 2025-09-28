@@ -1,4 +1,4 @@
-# Task 3: Basic Vulnerability Scan on PC using Nessus Essentials
+# Cyber Security Internship - Task 3: Basic Vulnerability Scan on PC using Nessus Essentials
 
 This README documents the process of performing a basic vulnerability scan on my local PC using Nessus Essentials, a free vulnerability scanner from Tenable. The objective is to identify common vulnerabilities on my computer. I'll cover the steps up to running the scan; documentation of the reports, critical vulnerabilities, fixes, and screenshots will be added later.
 
