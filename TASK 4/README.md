@@ -11,30 +11,30 @@ Configure and test basic firewall rules using UFW on Linux to allow or block tra
 1. Install and Enable UFW:
    - `sudo apt update && sudo apt install ufw -y`
    - `sudo ufw enable`
-   - Screenshot: step1-enable-ufw.png
-   - ![My Image](resource/step1-enable-ufw.png)
+![My Image](resource/step1-enable-ufw.png)
+  
 2. List Current Rules:
    - `sudo ufw status verbose`
-   - Screenshot: step2-list-rules.png
+![My Image](resource/step2-list-rules.png)
 
 3. Add Block Rule for Port 23 (Telnet):
    - `sudo ufw deny 23`
    - `sudo ufw reload`
-   - Screenshot: step3-block-rule-added.png
+![My Image](resource/step3-block-rule-added.png)
 
 4. Test the Rule:
    - Local: `telnet localhost 23` (should fail)
-   - Screenshot: step4-test-failure.png
+![My Image](resource/step4-test-failure.png)
 
 5. Add Allow Rule for SSH (Port 22):
    - `sudo ufw allow 22`
    - `sudo ufw reload`
-   - Screenshot: step5-allow-ssh.png
+![My Image](resource/step5-allow-ssh.png)
 
 6. Remove Test Block Rule:
    - `sudo ufw delete deny 23`
    - `sudo ufw reload`
-   - Screenshot: step6-rule-removed.png
+![My Image](resource/step6-rule-removed.png)
 
 ## Summary of How Firewall Filters Traffic
 Firewalls like UFW filter network traffic by inspecting packets based on rules. They check source/destination IP, port, protocol, etc. Default policies (e.g., deny inbound) block unless explicitly allowed. Rules are processed in order: allow/deny specific traffic, logging suspicious activity. This prevents unauthorized access while permitting legitimate connections (e.g., allowing SSH but blocking Telnet).
