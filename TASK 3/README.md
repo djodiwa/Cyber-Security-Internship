@@ -47,7 +47,9 @@ Nessus Essentials is chosen for this task (alternative: OpenVAS Community Editio
 
 ## Next Steps 
 
-# 📝 Problem and Resolution Documentation
+# Vulnerabilities 
+- ![Alt text](resource/result.png)
+- ![Alt text](resource/result1.png)
 
 ## **Problem Identified**
 
