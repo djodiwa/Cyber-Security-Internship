@@ -31,5 +31,5 @@ To finish this task, I did the steps from the guide one by one:
 8. **Summarize Findings and Packet Details**: See the part below for a short wrap-up based on the catch check.
 
 ## Repository Contents
-- **Network_traffic_capture**: network_traffic_capture.pcap (saved from Wireshark; ~5-10 MB, ready if needed).
-- **Short Report**: This paper is the report, with rule wrap-up and finds.
+- **Network_traffic_capture**: Packet Capture File (saved from Wireshark).
+- **Short Report**: This paper is the report, with packet details and finds.
