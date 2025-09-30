@@ -1,4 +1,4 @@
-# Cyber Security Internship - Task 6 — Creating and Evaluating Strong Passwords (Personal Report)
+# Cyber Security Internship - Task 6 Creating and Evaluating Strong Passwords (Personal Report)
 
 ## Purpose
 
