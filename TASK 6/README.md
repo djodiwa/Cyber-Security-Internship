@@ -6,7 +6,7 @@ I explored what makes a password strong by experimenting with different password
 
 ## Approach
 
-I generated several example passwords that vary in length, use of uppercase/lowercase, inclusion of digits and symbols, and overall structure. I then tested each one with a password strength checker (using an algorithm matching the general rules used by popular checkers) and recorded the scores and the tool’s feedback. Alongside testing, I reviewed common attack methods  such as brute-force and dictionary attacks — to connect the scores to real-world risk.
+I generated several example passwords that vary in length, use of uppercase/lowercase, inclusion of digits and symbols, and overall structure. I then tested each one with a password strength checker (using an algorithm matching the general rules used by popular checkers) and recorded the scores and the tool’s feedback. Alongside testing, I reviewed common attack methods  such as brute-force and dictionary attacks to connect the scores to real-world risk.
 
 ## Example passwords and results
 
