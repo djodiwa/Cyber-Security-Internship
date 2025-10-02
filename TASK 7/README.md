@@ -5,7 +5,9 @@ The goal was to review browser extensions for potential risks, spot anything sus
 
 ## Installed Extensions Review
 I checked all extensions in Firefox. Here's a quick list of what was active:
-!{image}(assets/list of extension.png)
+
+![image](assets/list of extension.png)
+
 - **Bitwarden Password Manager**: Securely stores passwords and passkeys. Looks legit and necessary for daily use.
 - **Don't track me Google**: Blocks annoying link-tracking on Google Search and Maps. Standard ad/privacy tool, no red flags.
 - **PopUpOFF - Popup and overlay blocker**: Stops popups, overlays, and cookie notices. Useful blocker with no extra permissions needed.
