@@ -47,4 +47,4 @@ Malicious browser extensions are like sneaky apps that pretend to help but actua
 To stay safe, always check permissions (stick to "required" only), read recent reviews, and remove anything you haven't used in months. Tools like Firefox's built-in reviewer help flag issues early.
 
 ## Outcome and Key Learnings
-This review boosted my awareness of browser risks – extensions are handy but can be weak spots if not managed. By disabling that extra permission, I cut potential privacy leaks without losing functionality. Overall, my setup feels more secure and snappier. Next time, I'll audit extensions every few months.
+This review boosted my awareness of browser risks extensions are handy but can be weak spots if not managed. By disabling that extra permission, I cut potential privacy leaks without losing functionality. Overall, my setup feels more secure and snappier. Next time, I'll audit extensions every few months.
