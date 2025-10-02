@@ -18,6 +18,7 @@ All extensions had good reviews and seemed from trusted sources like addons.mozi
 
 ## Suspicious Findings and Actions Taken
 Only one extension stood out as potentially risky: **Turn Off the Lights**.
+
 ![image](assets/suspiciousextension.png)
 
 - **Why suspicious?** It had an optional permission enabled: "Access your data for sites in the youtube.com domain." This means it could read or change data on YouTube pages beyond what's needed for basic dimming. Even though it's a popular tool (over 1 million users), extra access like this can sometimes lead to unintended data collection or conflicts.
