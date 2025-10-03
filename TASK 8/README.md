@@ -50,7 +50,14 @@ To prove it's working, I checked my IP (like your online "home address").
 This confirms the VPN is hiding my real location great for privacy!
 
 ### 5. Browsing a Website to Confirm Traffic Is Encrypted
-VPN active, I streamed a short video on YouTube about privacy basics. Load times were smooth, and the app's status bar confirmed full encryption no visible slowdowns or warnings. A quick check on **ipleak.net** showed zero leaks in DNS or WebRTC, proving my data stayed tucked away in the tunnel.
+
+![Confirm Traffic Is Encrypted](assets/Is-Traffic-Is-Encrypted.png)
+
+VPN active, I streamed a short video on YouTube about privacy basics. Load times were smooth, and the app's status bar confirmed full encryption no visible slowdowns or warnings.
+
+![check on ipleak](assets/ipleak.png)
+
+A quick check on **ipleak.net** showed zero leaks in DNS or WebRTC, proving my data stayed tucked away in the tunnel.
 
 ### 6. Disconnecting VPN and Comparing Browsing Speed and IP
 Time to see the difference.
