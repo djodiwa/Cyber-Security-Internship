@@ -99,4 +99,4 @@ Here's a quick wrap-up in a table for easy reading:
 In short: VPNs are like a privacy shield awesome for everyday protection, but not a magic invisibility cloak. Use them wisely!
 
 ## Outcome
-This hands-on task gave me real feel for VPNs. I now get why they're key in cyber security: They turn leaky public internet into a safe pipe. Setting up took 10 minutes, and testing showed clear changes in IP (from Indian to US-based) and speed (slight drop but still fast). Next time I'm on airport WiFi, I'll flip it on without thinking. Learned tons about encryption too—excited for more tasks!
+This hands-on task gave me real feel for VPNs. I now get why they're key in cyber security: They turn leaky public internet into a safe pipe. Setting up took 10 minutes, and testing showed clear changes in IP (from Indian to US-based) and speed (slight drop but still fast). Next time I'm on airport WiFi, I'll flip it on without thinking. Learned tons about encryption too excited for more tasks!
