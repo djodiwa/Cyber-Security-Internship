@@ -79,7 +79,7 @@ This project is a sophisticated keylogging tool developed for educational purpos
 
 6.  The server will start, and the control panel will automatically open in your default web browser at `http://localhost:8080`.
 
-![alt_](assets/Screenshot_2025-09-18_19_38_39.png)
+![](../assets/Screenshot_2025-09-18_19_38_39.png)
 
 ### 2. Keylogger Configuration and Deployment
 
@@ -117,6 +117,9 @@ Once the server is running and the keylogger is deployed:
 1.  **Open the Web Control Panel**: Access `http://<your_server_ip>:8080` in a web browser.
 2.  **Monitor Keystrokes**: The "Live Transmission Logs" panel will automatically update with new keystrokes as they are received.
 3.  **Control the Keylogger**: Use the "Control Panel" to remotely manage the keylogger's startup behavior or to terminate it using the kill switch.
+
+## DETAILED REPORT
+📄 [Download Full Project Report (PDF)](../assets/PROJECT-REPORT.pdf)
 
 ## Disclaimer
 
