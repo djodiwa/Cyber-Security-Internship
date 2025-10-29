@@ -61,20 +61,25 @@ This project is a sophisticated keylogging tool developed for educational purpos
 ### 1. Server Setup
 
 1.  **Clone the repository or download the files.**
+   ```bash
+    git clone https://github.com/djodiwa/Cyber-Security-Internship/tree/main/PROJECT
+   ```
 
-2.  **Open a terminal or command prompt and navigate to the project directory.**
+3.  **Open a terminal or command prompt and navigate to the project directory.**
 
-3.  **Install the required Python libraries:**
+4.  **Install the required Python libraries:**
     ```bash
     pip install flask cryptography
     ```
 
-4.  **Run the server script:**
+5.  **Run the server script:**
     ```bash
     python enhanced_server.py
     ```
 
-5.  The server will start, and the control panel will automatically open in your default web browser at `http://localhost:8080`.
+6.  The server will start, and the control panel will automatically open in your default web browser at `http://localhost:8080`.
+
+![alt_](assets/Screenshot_2025-09-18_19_38_39.png)
 
 ### 2. Keylogger Configuration and Deployment
 
