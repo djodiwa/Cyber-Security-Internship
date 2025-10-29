@@ -12,7 +12,7 @@ This project is a sophisticated keylogging tool developed for educational purpos
 *   **`enhanced_server.py`**: A Flask-based web server with an integrated control panel to receive, decrypt, and display the logged keystrokes in real-time.
 
 ## Features
-
+ 
 ### Keylogger (`enhanced_keylogger.py`)
 
 *   **Stealth Operations**: Copies itself to a hidden system directory (`C:\Windows\SystemTemp`) and runs in the background without a console window.
