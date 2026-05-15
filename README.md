@@ -6,7 +6,7 @@
 
 ## Introduction
 
-This repository serves as a comprehensive portfolio of the projects and tasks completed during a 45-day Cyber Security Internship with Elevate Labs. The work documented here demonstrates practical, hands-on experience across a wide range of cybersecurity domains, including ethical hacking, network security, vulnerability assessment, and threat analysis. Each task and project was designed to build foundational skills and apply theoretical knowledge to real-world scenarios.
+This repository serves as a comprehensive portfolio of the projects and tasks completed during a 3-month Cyber Security Internship. The work documented here showcases practical, hands-on experience across various cybersecurity domains, including ethical hacking, network security, vulnerability assessment, and threat analysis. Throughout the internship, multiple real-world tasks and projects were undertaken to strengthen foundational cybersecurity skills and apply theoretical knowledge in practical environments.
 
 ## Tasks and Project Overview
 
